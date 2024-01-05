@@ -13,6 +13,14 @@ p {
   margin: 0;
 }
 
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
 .user-list, 
 .gallery {
   margin: 0;
