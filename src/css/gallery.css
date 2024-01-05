@@ -17,7 +17,6 @@ p {
 .gallery {
   margin: 0;
   list-style: none;
-  padding: 24px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -26,7 +25,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 24px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .user-list li:not(:last-child) {
